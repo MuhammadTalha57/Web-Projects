@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background-color: rgb(89, 42, 133);
+    color: rgba(233, 228, 228, 0.877);
+    font-family: sans-serif;
+    min-width: 470px;
+}
+
+input {
+    width: 40%;
+    border: none;
+    color: rgba(233, 228, 228, 0.877);
+    background-color: rgb(58, 15, 99);
+    padding: 1rem;
+    margin: 0.5rem 0;
+    font-family: sans-serif;
+}
+
+#dropdown {
+    width: 45%;
+    border: none;
+    color: rgba(233, 228, 228, 0.877);
+    background-color: rgb(58, 15, 99);
+    padding: 1rem;
+    margin: 0.5rem 0;
+    font-family: sans-serif;
+}
+
+label {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    padding: 0 0;
+}
+
+fieldset {
+    border: none;
+}
+
+
+p {
+    display: inline;
+    text-align: left;
+}
+
+input[type="radio"] {
+    display: inline;
+    width: 20px;
+    font-family: sans-serif;
+    background-color: rgb(58, 15, 99);;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: 20px;
+    font-family: sans-serif;
+    background-color: rgb(58, 15, 99);
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+div > label {
+    display: inline;
+}
+
+#submit {
+    background-color: rgb(123, 92, 196);
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    color: rgb(118, 238, 118);
+    text-emphasis-style: bold;
+    font-size-adjust: 1;
+}
+
+#cmntLab {
+    display: block;
+}
+
+textarea {
+    background-color: rgb(58, 15, 99);
+    color: rgba(233, 228, 228, 0.877);
+    display: block;
+}
+
+div {
+    margin-top: 8px;
+}

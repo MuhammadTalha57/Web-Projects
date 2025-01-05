@@ -1,0 +1,99 @@
+<!-- 
+This is a part of my freecodecap.org's course. Using basic HTML and CSS, I have to design a survey form.
+Link: https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Programmunity Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Programmunity Survey Form</h1>
+    <p id="description">
+        <em>Thank you for filling out this form</em>
+    </p>
+
+    <form id="survey-form">
+        <hr class="divider">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name" id="name-label">Name: </label>
+            <input id="name" type="text" placeholder="Muhammad Talha" required/>
+            
+            <label for="email" id="email-label">Email: </label>
+            <input id="email" type="email" placeholder="xyz@gmail.com" required/>
+            
+            
+            <label for="number" id="number-label">Phone Number: </label>
+            <input id="number" type="number" min="03000000000" max="03999999999" placeholder="03XXXXXXXXX"/>
+            
+
+        </fieldset>
+
+        <hr class="divider">
+
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <label for="dropdown">Department: </label>
+            <select name="department" id="dropdown">
+                <option value="Software-Engineering" >Software Engineering</option>
+                <option value="Computer-Science">Computer Science</option>
+            </select>
+            
+
+            <div>
+                <p>Year: </p>
+            
+                <input type="radio" name="year" id="first" checked value="1"/>
+                <label for="first"> First Year</label>
+                    
+
+                <input type="radio" name="year" id="second" value="2"/>
+                <label for="second"> Second Year</label>
+
+                <input type="radio" name="year" id="third" value="3"/>
+                <label for="third"> Third Year</label>
+
+                <input type="radio" name="year" id="fourth" value="4"/>
+                <label for="fourth"> Fourth Year</label>
+
+            </div>
+            
+
+
+            
+            <div>
+                <p>Interest: </p>
+
+                <input type="checkbox" id="DSA" value="DSA"/>
+                <label for="DSA"> DSA</label>
+
+                <input type="checkbox" id="Competitive-Programming" value="CP"/>
+                <label for="Competitive-Programming"> Competitive Programming</label>
+
+            </div>
+            
+            <label for="comments" id="cmntLab">Comments: </label>
+
+            <div>
+                <textarea name="comments" id="comments" rows="10" cols="40" >I liked DSA part...
+                </textarea>
+
+            </div>
+            
+
+        </fieldset>
+
+        <hr class="divider">
+        <button type="submit" id="submit">SUBMIT</button>
+
+    </form>
+
+</body>
+</html>
