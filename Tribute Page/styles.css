@@ -1,0 +1,52 @@
+img {
+    display: block;
+}
+
+header, #img-div, footer{
+    text-align: center;
+}
+
+body {
+    background-color: rgb(175, 175, 202);
+}
+
+* {
+    font-family: sans-serif;
+}
+
+#title {
+    margin: 0 0;
+}
+
+header p {
+    font-style: italic;
+    font-size: 0.75rem;
+}
+
+#image {
+    max-width: 100%;
+    max-height: max-content;
+    width: 25vw;
+    height: auto;
+    margin: auto auto;
+}
+
+#tribute-info {
+    margin-top: 5%;
+    text-align: left;
+}
+
+li {
+    list-style:circle;
+    padding: 0.25rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
