@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+#navbar {
+    position: sticky;
+    top:0;
+    background-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222;
+        color: #fff;
+    }
+}
+
+@media (max-width: 575px) {
+    body {
+        background-color: lightgray;
+    }
+}
+
+nav header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+nav div a {
+    margin-right: 5%;
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(172, 162, 180);
+    
+}
+
+nav div a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.main-section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.main-section header {
+    font-size: xx-large;
+    color: rgb(187, 175, 209);
+}
+
